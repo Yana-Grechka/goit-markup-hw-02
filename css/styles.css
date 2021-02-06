@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.geroy {
+  background-color: #2f303a;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color: rgba(117, 117, 117, 1);
+}

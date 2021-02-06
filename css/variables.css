@@ -1,0 +1,7 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --wite-text-op06: rgba(255, 255, 255, 0.6);
+  --black-text: rgba(33, 33, 33, 1);
+  --lite-grey-text: rgba(117, 117, 117, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+}
