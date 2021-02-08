@@ -4,7 +4,6 @@ body {
 
 .nav-link {
   color: var(--black-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -16,9 +15,18 @@ body {
 }
 
 .logofont {
+  color: var(--black-text);
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logofont-footer {
+  color: var(--white-text);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -36,10 +44,13 @@ body {
   top: 80px;
 }
 
+.team-list {
+  background: var(--lite-grey-color);
+}
+
 .geroy-title {
   color: var(--white-text);
-  font-style: normal;
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
@@ -50,6 +61,7 @@ body {
 .geroy-button {
   background-color: var(--blue-text);
   color: var(--white-text);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   width: 200px;
@@ -57,13 +69,18 @@ body {
 }
 
 .button-list {
-  background-color: var(--lite-button);
+  background-color: var(--lite-grey-color);
   color: var(--black-text);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .contacts-nav {
   color: var(--grey-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -76,8 +93,7 @@ body {
 
 .title {
   color: var(--black-text);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -86,8 +102,7 @@ body {
 
 .hang {
   color: var(--black-text);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -96,17 +111,14 @@ body {
 
 .hang-list {
   color: var(--grey-text);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 
 .worker-name {
-  font-family: 'Roboto', sans-serif;
   color: var(--black-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -116,8 +128,7 @@ body {
 
 .worker-position {
   color: var(--grey-text);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -126,8 +137,7 @@ body {
 
 .project-list {
   color: var(--black-text);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
@@ -135,8 +145,7 @@ body {
 
 .project-style {
   color: var(--grey-text);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -148,8 +157,7 @@ body {
 
 .address {
   color: var(--white-text);
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
